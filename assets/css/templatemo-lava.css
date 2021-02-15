@@ -93,7 +93,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -101,9 +101,10 @@ ul {
 }
 
 p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
   color: #888;
+  text-align:justify;
 }
 
 /* 
@@ -147,7 +148,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #f6cb55;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -251,11 +252,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #f16258!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #f16258!important;
 }
 
 .header-area {
@@ -332,7 +333,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: #f16258;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -397,12 +398,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: #f16258;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fba70b!important;
+  color: #f16258!important;
   padding-left: 25px;
 }
 
@@ -538,7 +539,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fba70b;
+  color: #f16258;
 }
 
 @media (max-width: 1200px) {
@@ -757,9 +758,13 @@ about
   }
 }
 
+.events {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .features-item {
   border-radius: 5px;
-  padding: 60px 30px;
+  padding: 60px 75px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
