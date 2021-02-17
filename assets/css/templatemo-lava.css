@@ -960,8 +960,8 @@ testimonials
   background: rgb(244, 129, 63);
   background: linear-gradient(
     145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
+    #de97b8 40%,
+    #beadd4  60%
   );
   margin-left: 50px;
   margin-right: 20px;
@@ -1023,8 +1023,8 @@ testimonials
   background: rgb(244, 129, 63);
   background: linear-gradient(
     145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
+    #de97b8 40%, 100%,
+    #beadd4  60% 0%
   );
   position: absolute;
 }
@@ -1044,8 +1044,8 @@ testimonials
   background: rgb(244, 129, 63);
   background: linear-gradient(
     145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
+    #de97b8 40%, 100%,
+    #beadd4  60% 0%
   );
   position: absolute;
 }
@@ -1065,8 +1065,8 @@ testimonials
   background: rgb(244, 129, 63);
   background: linear-gradient(
     145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
+    #de97b8 40%, 100%,
+    #beadd4  60% 0%
   );
   position: absolute;
 }
@@ -1086,8 +1086,8 @@ testimonials
   background: rgb(244, 129, 63);
   background: linear-gradient(
     145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
+    #de97b8 40%, 100%,
+    #beadd4  60% 0%
   );
   position: absolute;
 }
