@@ -104,7 +104,7 @@ p {
   font-size: 16px;
   line-height: 20px;
   color: #888;
-  text-align:justify;
+  text-align:center;
 }
 
 /* 
@@ -694,6 +694,16 @@ welcome
   position: relative;
 }
 
+.prize {
+  text-align: left;
+  margin-left: 46px;
+}
+
+.public-poster {
+  text-align: right;
+  margin-right: 40px;
+}
+
 @media (max-width: 1420px) {
   .welcome-area .header-text {
     width: 70%;
@@ -738,6 +748,7 @@ welcome
     margin-right: 0px;
     padding-right: 0px;
   }
+
 }
 
 /*
@@ -868,7 +879,7 @@ testimonials
 }
 
 #testimonials {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
   z-index: 9;
 }
@@ -880,7 +891,8 @@ testimonials
 #testimonials .item .testimonial-content {
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
-  margin-left: 60px;
+  margin-left: 50px;
+  margin-right: 20px;
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
@@ -899,9 +911,13 @@ testimonials
 #testimonials .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
+  margin-bottom: 5px;
   color: #fff;
 }
 
+.category {
+  color: white;
+}
 #testimonials .item .testimonial-content p {
   color: #fff;
   font-style: italic;
