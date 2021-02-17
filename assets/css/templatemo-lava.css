@@ -27,6 +27,18 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@font-face {
+  font-family: "exo-black-regular";
+  src: url("../fonts/exo.regular.otf");
+}
+@font-face {
+  font-family: "exo-black-demi-bold";
+  src: url("../fonts/exo.demi-bold.otf");
+}
+@font-face {
+  font-family: "exo-black";
+  src: url("../fonts/exo.black.otf");
+}
 /* 
 ---------------------------------------------
 reset
@@ -140,8 +152,9 @@ hgroup {
 
 html,
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "exo-black";
   font-weight: 400;
+  letter-spacing: 2px;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -171,7 +184,6 @@ p {
   font-size: 16px;
   line-height: 20px;
   color: #888;
-  text-align: center;
 }
 
 /* 
@@ -182,7 +194,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "exo-black-regular";
 }
 
 ::selection {
@@ -737,6 +749,7 @@ welcome
 }
 
 .welcome-area .header-text h1 {
+  font-family: "exo-black";
   font-weight: 900;
   font-size: 52px;
   line-height: 80px;
@@ -958,11 +971,7 @@ testimonials
 
 #testimonials .item .testimonial-content {
   background: rgb(244, 129, 63);
-  background: linear-gradient(
-    145deg,
-    #de97b8 40%,
-    #beadd4  60%
-  );
+  background: linear-gradient(145deg, #de97b8 40%, #beadd4 60%);
   margin-left: 50px;
   margin-right: 20px;
   padding: 40px 30px;
@@ -1021,11 +1030,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(
-    145deg,
-    #de97b8 40%, 100%,
-    #beadd4  60% 0%
-  );
+  background: linear-gradient(145deg, #de97b8 40%, 100%, #beadd4 60% 0%);
   position: absolute;
 }
 
@@ -1042,11 +1047,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(
-    145deg,
-    #de97b8 40%, 100%,
-    #beadd4  60% 0%
-  );
+  background: linear-gradient(145deg, #de97b8 40%, 100%, #beadd4 60% 0%);
   position: absolute;
 }
 
@@ -1063,11 +1064,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(
-    145deg,
-    #de97b8 40%, 100%,
-    #beadd4  60% 0%
-  );
+  background: linear-gradient(145deg, #de97b8 40%, 100%, #beadd4 60% 0%);
   position: absolute;
 }
 
@@ -1084,11 +1081,7 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244, 129, 63);
-  background: linear-gradient(
-    145deg,
-    #de97b8 40%, 100%,
-    #beadd4  60% 0%
-  );
+  background: linear-gradient(145deg, #de97b8 40%, 100%, #beadd4 60% 0%);
   position: absolute;
 }
 
@@ -1125,7 +1118,7 @@ footer {
   padding-top: 120px;
   background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left bottom;
   background-size: cover;
   width: 100%;
 }
@@ -1187,10 +1180,6 @@ footer .right-content {
 
 .contact-form ::placeholder {
   color: #7a7a7a;
-}
-
-.footer-content .right-content {
-  color: #fff;
 }
 
 .footer-content .right-content h2 {
