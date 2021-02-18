@@ -15,7 +15,7 @@ Table of contents
 04. header
 05. welcome
 06. features
-07. testimonials
+07. prize
 08. contact
 09. footer
 10. preloader
@@ -908,35 +908,42 @@ promotion
   margin-top: -200px;
 }
 
-#promotion {
+#promotion,
+#events {
   padding: 100px 0px;
 }
 
-#promotion .left-image {
+#promotion .left-image,
+#events .left-image {
   align-self: center;
 }
 
-#promotion .right-text ul {
+#promotion .right-text ul,
+#events .right-text ul {
   padding: 0;
   margin: 0;
 }
 
-#promotion .right-text ul li {
+#promotion .right-text ul li,
+#events .right-text ul li {
   display: inline-block;
   margin-bottom: 60px;
 }
 
-#promotion .right-text ul li:last-child {
+#promotion .right-text ul li:last-child,
+#events .right-text ul li:last-child {
   margin-bottom: 0px;
 }
 
-#promotion .right-text img {
+#promotion .right-text img,
+#events .right-text img {
   display: inline-block;
   float: left;
   margin-right: 30px;
 }
 
-#promotion .right-text h4 {
+#promotion .right-text h4,
+#events .right-text h4 {
   font-size: 22px;
   color: #1e1e1e;
   margin-bottom: 15px;
@@ -945,7 +952,7 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+prize
 --------------------------------------------
 */
 .right-image-decor {
@@ -959,17 +966,17 @@ testimonials
   margin-top: -200px;
 }
 
-#testimonials {
+#prize {
   padding-top: 50px;
   position: relative;
   z-index: 9;
 }
 
-#testimonials .item {
+#prize .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-content {
+#prize .item .testimonial-content {
   background: rgb(244, 129, 63);
   background: linear-gradient(145deg, #de97b8 40%, #beadd4 60%);
   margin-left: 50px;
@@ -979,17 +986,17 @@ testimonials
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#prize .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#prize .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#prize .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -999,20 +1006,20 @@ testimonials
 .category {
   color: white;
 }
-#testimonials .item .testimonial-content p {
+#prize .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#prize .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#prize .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
